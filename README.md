@@ -35,7 +35,7 @@ In order to recreate this project, users must have Processing and Arduino softwa
 https://processing.org/
 https://www.arduino.cc/
 
-Users must also have the Arduino and Minim libraries installed with their Processing software. These libraries are available through Processing itself, but can also be downloaded via the libraries folder in this readme.
+Users must also have the Arduino and Minim libraries installed with their Processing software. These libraries are available through Processing itself, but can also be downloaded via the libraries folder in this repository.
 
 As far as physical materials go, the following is required:
 
@@ -60,6 +60,8 @@ Grey modelling clay
 
 ## Build Instructions
 
+Hardware:
+
 The hardware build for this project is very simple. The legs of the RGB LED are spread just enough along the “a” row of the breadboard in order to make room for resistors to be placed closely around them. The negative prong (longest leg) of the LED is connected to the negative row on the left side of the breadboard in order to ground it. Three jumper wires connect the red, green, and blue prongs (via resistors) to Arduino pins 10, 11, and 12. A fourth jumper wire connects the ground rail to GND on the Arduino.
 
 Here is a schematic for the project and a breadboard diagram:
@@ -72,9 +74,15 @@ Here is a schematic for the project and a breadboard diagram:
 
 [pic4]: https://github.com/brttwytt/CS207TermProject/blob/master/img/breadboard.png "Logo Title Text 2"
 
+Design:
+
 In order to achieve the white marble finish on the inside of the lampshade, melt a white candle in the microwave for several minutes or until it is completely melted. Then transfer the melted wax into the lampshade and swirl it around until it hardens, and coats the inside evenly. Wait for a few hours for the wax to solidify and cool down.
 
-I designed my lamp to look like a smiley face, but new users can use clay to design their lamp however they would like. However, it is important to coat the clay designs with clear glue in order to harden them so they do not fall off the lampshade.
+![alt text][pic5]
+
+[pic5]: https://github.com/brttwytt/CS207TermProject/blob/master/img/materials.jpg "Logo Title Text 2"
+
+I designed my lamp to look like a smiley face, but new users can use clay to design their lamp however they would like. However, it is important to coat the clay designs with clear glue in order to harden them so they do not fall off the lampshade. I used a paintbrush to apply the glue, but this is not required.
 
 Once the lampshade is finished, it should be able to slide on top of the RGB LED. The lamp build is now complete.
 
