@@ -35,9 +35,9 @@ In order to recreate this project, users must have Processing and Arduino softwa
 https://processing.org/
 https://www.arduino.cc/
 
-Users must also have the Arduino and Minim libraries installed with their Processing software. These libraries are available through Processing itself, but can also be downloaded via the librarier folder in this readme.
+Users must also have the Arduino and Minim libraries installed with their Processing software. These libraries are available through Processing itself, but can also be downloaded via the libraries folder in this readme.
 
-As far as physcial materials go, the following is required:
+As far as physical materials go, the following is required:
 
 1x Arduino Uno and USB cable
 
@@ -97,8 +97,13 @@ In order to make the lamp work, the following must be done:
 ## Credits
 
 Brett Wyatt - hardware and lamp design, programming, documentation
+
 Hyrulian - source code (https://www.instructables.com/id/How-to-Make-LEDs-Flash-to-Music-with-an-Arduino/)
+
 javz - source code (https://forum.processing.org/two/discussion/7140/how-to-let-the-user-select-com-serial-port-within-a-sketch)
+
 Andre Infante - hardware design (http://www.makeuseof.com/tag/build-companion-cube-mood-lamp/)
+
 Alex Clarke - programming assistance
+
 Trevor Tomesh - resistor lending
